@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProjetArbre.exe" version="1.0.0.0" publicKeyToken="28b781ceee7a9332" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProjetArbre" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProjetArbre.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d'utilisateur
+          Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l'une des propositions suivantes :
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjetArbre.exe" size="41984">
+      <assemblyIdentity name="ProjetArbre" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bX+h8XzxJCOBygq8EJz9tzcrDALYLPcJudgq0JC9HNo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ProjetArbre.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\icone.ico" size="1406">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F5r5w9vSELsibapxU/oT7do4G/pBVgVY6COzjWuGm6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KVFEI\Dwenn" issuerKeyHash="2ad00dc0e532d20c1a6b6665f73608b8e8985735" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+Mvy91/2xGAojfTc3C777ngmKwAhRgK/jYoaFOQRq50=</DigestValue></Reference></SignedInfo><SignatureValue>VDsrECCHV4Q7KGFyfrFxg1oB/hzFXgCMQM/OzvdAJK4GcHn5fse/6UHXrLE8Rwn/BeOHXhAGNUvpLaBKK5MtZixjZFRKY2LigG2gHgpGnIjPJhUYOqbFk2AeCTaxy0t3zoCRFF7eHQ+zu0K8SymOhagAxA0gSq/YB8OvmrBHEVQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oA64IJFaDeAliZVwqJGVUf0hlSVwgLQ5zKNfzRztJj48BuZHE3bMvRCu89wVOupYesBM2I2HnNrtTykNLPXYcGPfuOfUN4UIRHq1KAjROHXLKwju/sQR5j5e32De6ggpzkBX4US1beE/sGMKz0UdU3N4Y7PGMhrS9W4+vgmzmgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9dab11e4141a8a8dbf024621002b2678eefb2edcdcf48d2860c4f65ff7f2cbf8" Description="" Url=""><as:assemblyIdentity name="ProjetArbre.exe" version="1.0.0.0" publicKeyToken="28b781ceee7a9332" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KVFEI\Dwenn</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iu4gGyYhQJtyS9OeDVGvorZY8JplbM9A/RSZ8Hkd0iY=</DigestValue></Reference></SignedInfo><SignatureValue>EMabidsyWhglL91bKVRG4n6mlwY9wBClUGWikyC5y7EN+9oZEw4k3QM5JDVtG6GO4YoSTISyeFrPHqwT9FuiDgjf3I/Uh9kdoHhw5L5Fbkevbi3A+xYTrN48F4s+U8qE5Ni/3/kDGwNGvf4xjvmSOA3jdNgFZd1xV20KU0lxCKA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oA64IJFaDeAliZVwqJGVUf0hlSVwgLQ5zKNfzRztJj48BuZHE3bMvRCu89wVOupYesBM2I2HnNrtTykNLPXYcGPfuOfUN4UIRHq1KAjROHXLKwju/sQR5j5e32De6ggpzkBX4US1beE/sGMKz0UdU3N4Y7PGMhrS9W4+vgmzmgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQLJVhHDNxT5BHB8toWjDzqDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYASwBWAEYARQBJAFwARAB3AGUAbgBuMB4XDTE0MDMxNDAyMjIxMFoXDTE1MDMxNDA4MjIxMFowITEfMB0GA1UEAx4WAEsAVgBGAEUASQBcAEQAdwBlAG4AbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoA64IJFaDeAliZVwqJGVUf0hlSVwgLQ5zKNfzRztJj48BuZHE3bMvRCu89wVOupYesBM2I2HnNrtTykNLPXYcGPfuOfUN4UIRHq1KAjROHXLKwju/sQR5j5e32De6ggpzkBX4US1beE/sGMKz0UdU3N4Y7PGMhrS9W4+vgmzmgkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCBz2yC3KMZ/8CM9R/v28q77hnwnA58wdzouIG6IOGFB4s/QD4sw9fN4S0V6hxiogoc73PEL052U05LO/YYKr6RHnugTIG9avnLzNlQ+9oYPU4hPMzlvbarPs97FFiw3p4S/OVbodPeQAQU8zMdp281ePlxAx3nMBrgcGORgOpAsw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
