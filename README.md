@@ -1,5 +1,5 @@
 # Arbre-binaire
-2015. / 
+2014. Arbre binaire, vente multi-niveau
 
 ## Introduction
 Le but de ce travail est de proposer à l’utilisateur de visualiser une vente à multiniveau à l’aide une application réalisée en groupe.
